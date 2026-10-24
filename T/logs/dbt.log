@@ -1,0 +1,17 @@
+[0m12:12:27.516158 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7387B1550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7362DCB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A73B107B10>]}
+
+
+============================== 12:12:27.520009 | 520446fd-8735-4355-9ff3-af9b1a4236f9 ==============================
+[0m12:12:27.520009 [info ] [MainThread]: Running with dbt=1.12.5
+[0m12:12:27.520603 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\AdminGhost\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt ', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'c:\\Users\\AdminGhost\\Downloads\\dbt_f1_example-main\\T\\logs'}
+[0m12:12:27.720935 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '520446fd-8735-4355-9ff3-af9b1a4236f9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A73AF2F820>]}
+[0m12:12:27.838462 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m12:12:27.839617 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m12:12:27.840867 [debug] [MainThread]: Command `cli deps` succeeded at 12:12:27.840716 after 0.53 seconds
+[0m12:12:27.841269 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A736BB4490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A73B344050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A73AF36A50>]}
+[0m12:12:27.841655 [debug] [MainThread]: Flushing usage events
+[0m12:12:34.156594 [debug] [MainThread]: An error was encountered while trying to flush usage events
+==================== 2026-10-24T09:19:12.261831Z | 01a16d34-ff83-7832-8cf4-1f4d7be5c7d4 ====================
+09:19:20.184076 [info ]: 
+==================== Execution Summary =====================
+Finished 'internal' successfully [7.9s]
